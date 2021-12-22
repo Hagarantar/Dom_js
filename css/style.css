@@ -1,0 +1,39 @@
+
+.item-content {
+    background-color: #fff;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+
+}
+.item{
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+#lightBoxContainer{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#lightBoxItem{
+    width: 50%;
+    height: 500px;
+    background-image: url(../img/4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+#lightBoxItem i{
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
+#lightBoxItem #prev , #next{margin: 10px;}
